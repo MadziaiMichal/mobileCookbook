@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">mobileCookbook</string>
+    <string name="title_activity_meals_list">MealsList</string>
 </resources>
