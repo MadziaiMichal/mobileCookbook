@@ -23,23 +23,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Breakfast"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="90dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dinner"
+        android:visibility="visible"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="78dp" />
+        tools:layout_editor_absoluteY="148dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="85dp"
         android:layout_height="wrap_content"
         android:text="Supper"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dessert"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="264dp" />
 
 </android.support.constraint.ConstraintLayout>
